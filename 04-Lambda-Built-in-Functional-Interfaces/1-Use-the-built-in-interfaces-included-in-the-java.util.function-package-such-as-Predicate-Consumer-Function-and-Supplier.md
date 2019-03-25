@@ -3,6 +3,7 @@
 Functional interfaces provide target types for lambda expressions and method references. Each functional interface has a single abstract method, called *functional method* for that functional interface, to which the lambda expression's parameter and return types are matched or adapted.
 
 ###Predicate
+
 A predicate is a statement that may be true or false depending on the values of its variables. It can be thought of as a function that returns a value that is either true or false.
 
 In Java 8, a *Predicate* is a functional interface that can be used anywhere you need to evaluate a boolean condition. Since it's a functional interface, you can pass a lambda expression wherever a *Predicate* is expected.

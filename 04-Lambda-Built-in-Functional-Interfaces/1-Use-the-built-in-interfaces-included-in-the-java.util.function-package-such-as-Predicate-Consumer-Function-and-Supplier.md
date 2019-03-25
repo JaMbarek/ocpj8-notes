@@ -108,6 +108,7 @@ The input parameter type and the return type of the method can either be same or
 ````
 
 ###Supplier
+
 This functional interface does the opposite of the *Consumer*, it takes no arguments but it returns some value. It may return different values when it is being called more than once. Since it's a functional interface, you can pass a lambda expression wherever a *Supplier* is expected.
 
 See the [API](https://docs.oracle.com/javase/8/docs/api/java/util/function/Supplier.html) to know the one method of this interface.

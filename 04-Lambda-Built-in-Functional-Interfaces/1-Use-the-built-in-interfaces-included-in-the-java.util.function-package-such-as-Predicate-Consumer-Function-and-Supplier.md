@@ -46,6 +46,7 @@ Here, the filter method expects a *Predicate*, so we can pass a lambda expressio
 ````
 
 ###Consumer
+
 This functional interface represents an operation that accepts a single input argument and returns no result. The real outcome is the side-effects it produces. Since it's a functional interface, you can pass a lambda expression wherever a *Consumer* is expected.
 
 See the [API](https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html) to know the methods of this interface.
@@ -79,6 +80,7 @@ Basically, what *Consumer* does is executing the assigned lambda expression. The
 ````
 
 ###Function
+
 This functional interface represents a function that accepts one argument and produces a result. One use, for example, it's  to convert or transform from one object to another. Since it's a functional interface, you can pass a lambda expression wherever a *Function* is expected.
 
 See the [API](https://docs.oracle.com/javase/8/docs/api/java/util/function/Function.html) to know the methods of this interface.
